@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fuck Hiroyuki",
+  "description": "This extension edits the HTML of 4chan pages so that images only use i.4cdn, and aren't absolute shit.",
+  "version": "1.0.1",
+
+  "content_scripts":[{
+    "js": ["fuckhiro.js"],
+    "matches": ["http://boards.4chan.org/*", "https://boards.4chan.org/*"]
+  }]
+}
