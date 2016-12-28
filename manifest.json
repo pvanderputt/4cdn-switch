@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Fast Image",
+  "name": "Fuck Hiro",
   "description": "This extension edits the HTML of 4chan pages so that images only use i.4cdn, and aren't absolute shit.",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "content_scripts":[{
     "js": ["fuckhiro.js"],

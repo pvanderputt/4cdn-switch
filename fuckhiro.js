@@ -1,6 +1,6 @@
-var images = document.getElementsByClassName("fileThumb");
-var i = 0;
-for(; i < images.length; i++){
-    images[i].href = images[i].href.replace(/is.4chan/, "i.4cdn");
+var FH_replaceImages = document.getElementsByClassName("fileThumb");
+var FH_iterator = 0;
+for(; FH_iterator < FH_replaceImages.length; FH_iterator++){
+    FH_replaceImages[FH_iterator].href = FH_replaceImages[FH_iterator].href.replace(/is.4chan/, "i.4cdn");
 }
-console.log(i + " pieces of bullshit replaced.");
+console.log(FH_iterator + " pieces of bullshit replaced.");
