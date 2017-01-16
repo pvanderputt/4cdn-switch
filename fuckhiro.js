@@ -1,9 +1,12 @@
 var FH_replaceImageThumbs = document.getElementsByClassName("fileThumb");
 var FH_replaceImageText = document.getElementsByClassName("fileText");
-while(true){
+
+setInterval(function(){ fuck_hiro(); }, 3000);
+function fuck_hiro() {  
     little_boy();
     fat_man();
 }
+
 //Replaces the slow links in the thumbnail
 function little_boy() {//https://en.wikipedia.org/wiki/Hiroshima
     var FH_thumbIterator = 0;
