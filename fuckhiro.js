@@ -12,6 +12,7 @@ var FH_textIterator = 0;
 for(; FH_textIterator < FH_replaceImageText.length; FH_textIterator++){
     if(FH_replaceImageText[FH_textIterator].getElementsByTagName('a')[0].href){
         var imageText = FH_replaceImageText[FH_textIterator].getElementsByTagName('a')[0].href.replace(/is.4chan/, "i.4cdn");
+        var imageText = FH_replaceImageText[FH_textIterator].getElementsByTagName('a')[0].href.replace(/is2.4chan/, "i.4cdn");
         FH_replaceImageText[FH_textIterator].getElementsByTagName('a')[0].setAttribute('href', imageText);
     }
 }
