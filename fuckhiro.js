@@ -5,6 +5,7 @@ var FH_thumbIterator = 0;
 for(; FH_thumbIterator < FH_replaceImageThumbs.length; FH_thumbIterator++){
     if(FH_replaceImageThumbs[FH_thumbIterator].href){
         FH_replaceImageThumbs[FH_thumbIterator].href = FH_replaceImageThumbs[FH_thumbIterator].href.replace(/is.4chan/, "i.4cdn");
+        FH_replaceImageThumbs[FH_thumbIterator].href = FH_replaceImageThumbs[FH_thumbIterator].href.replace(/is2.4chan/, "i.4cdn");
     }
 }
 //Replaces the slow links the filename text
