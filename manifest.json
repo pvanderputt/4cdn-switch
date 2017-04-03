@@ -3,8 +3,10 @@
 
   "name": "Fuck Hiro",
   "description": "This extension edits the HTML of 4chan pages so that images only use i.4cdn, and aren't absolute shit.",
-  "version": "1.0.4",
-
+  "version": "1.1.0",
+  
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  
   "content_scripts":[{
     "js": ["fuckhiro.js"],
     "matches": ["http://boards.4chan.org/*", "https://boards.4chan.org/*"]
